@@ -9,6 +9,7 @@ import { useLocation } from "react-router-dom";
 import PricingArticle from "../Components/PricingArticles";
 
 const Home = lazy(() => import("../Pages/Home"));
+const Home2 = lazy(() => import("../Components/Home2")); // Added new Home2 component
 const Encology = lazy(() => import("../Pages/Encology"));
 const PlasticSurgery = lazy(() => import("../Pages/PlasticSurgery"));
 const Signup = lazy(() => import("../Pages/Signup"));
@@ -50,6 +51,7 @@ function MainRoutes() {
       {!isRoomPage && <Navbar2 />}
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/home2" element={<Home2 />} /> {/* Added new Home2 route */}
         <Route path="/contact-us" element={<ContactUsPage />} />
         <Route path="/premium-packages" element={<PricingArticle />} />
         <Route path="/forgot-password" element={<Forgot />} />
@@ -64,14 +66,7 @@ function MainRoutes() {
         <Route path="/signup/hospital" element={<SignUpHospital />} />
         <Route path="/verify-otp" element={<VerifyPage />} />
         <Route path="/verify-hospital" element={<VerificationHospital />} />
-        <Route
-          path="/login"
-          element={
-            // <NonRequireAuth>
-            <Login />
-            // </NonRequireAuth>
-          }
-        />
+        <Route path="/login" element={<Login />} />
         <Route path="/encology" element={<Encology />} />
         <Route path="/plasticsurgery" element={<PlasticSurgery />} />
         <Route path="/clinics/:id" element={<ClinicDetail />} />

@@ -1,0 +1,41 @@
+/* src/App.css */
+@keyframes rotate {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.rotate-slow {
+  animation: rotate 20s linear infinite;
+}
+
+@keyframes zoomInOut {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.2); }
+}
+
+.animate-zoom {
+  animation: zoomInOut 2s ease-in-out infinite;
+}
+
+.background_color_price {
+  background: radial-gradient(circle, #1563A3 0%, #1563A3 30%, #000949 100%);
+}
+
+.accordion-content {
+  display: none;
+  padding: 0.5rem 1rem;
+}
+
+.accordion-content.open {
+  display: block;
+}
+
+@media (min-width: 768px) {
+  .md\:w-52 {
+    width: 30rem;
+  }
+  .md\:w-64 {
+    width: 25rem;
+  }
+}
+

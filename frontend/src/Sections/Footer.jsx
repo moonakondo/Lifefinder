@@ -81,7 +81,7 @@ const Footer = () => {
                     href="mailto:info@lifefinder.com"
                     className="text-gray-300 hover:text-gray-100 text-l3g font-medium ml-2 hover:underline"
                   >
-                    info@lifefinder.com
+                    Contact@life-finder.com 
                   </a>
                 </li>
 

@@ -1,23 +1,15 @@
-import React, { useEffect } from "react";
-import AOS from "aos";
-import "./App.css";
-import "aos/dist/aos.css";
-import MainRoutes from "./Routes/mainRoute";
+import React from "react";
+import { Routes, Route } from "react-router-dom";
+import Home2 from "./Components/Home2";
+import Pricing2 from "./Components/Pricing2"; // ✅ Corrected import path
 
-function App() {
-  useEffect(() => {
-    AOS.init({
-      duration: 2000, // Duration of the animation
-      easing: "ease-in-out", // Easing function for the animation
-      once: false, // Set to false to allow animations to occur multiple times
-      offset: 100, // Offset (in px) from the original trigger point
-    });
-  }, []);
-
-
+function MainRoutes() {
   return (
-    <MainRoutes />
+    <Routes>
+      <Route path="/" element={<Home2 />} />
+      <Route path="/Pricing2" element={<Pricing2 />} /> {/* ✅ New route */}
+    </Routes>
   );
 }
 
-export default App;
+export default MainRoutes;

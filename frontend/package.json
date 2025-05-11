@@ -16,12 +16,14 @@
     "axios": "^1.7.2",
     "date-fns": "^3.6.0",
     "emoji-picker-react": "^4.10.0",
+    "framer-motion": "^12.7.4",
     "i18next": "^23.12.1",
     "i18next-http-backend": "^2.5.2",
     "js-cookie": "^3.0.5",
     "leaflet": "^1.9.4",
     "leaflet-geosearch": "^4.0.0",
     "libphonenumber-js": "^1.11.5",
+    "lucide-react": "^0.487.0",
     "moment": "^2.30.1",
     "multiselect-react-dropdown": "^2.0.25",
     "rc-menu": "^9.15.1",
@@ -38,7 +40,6 @@
     "react-infinite-scroll-component": "^6.1.0",
     "react-intersection-observer": "^9.10.3",
     "react-leaflet": "^4.2.1",
-    "react-leaflet-geosearch": "^0.3.4",
     "react-multi-carousel": "^2.8.5",
     "react-multilevel-dropdown": "^4.0.0",
     "react-phone-input-2": "^2.15.1",
@@ -46,7 +47,7 @@
     "react-pro-sidebar": "^1.1.0",
     "react-query": "^3.39.3",
     "react-responsive-carousel": "^3.2.23",
-    "react-router-dom": "^6.23.1",
+    "react-router-dom": "^6.30.0",
     "react-scripts": "5.0.1",
     "react-select": "^5.8.0",
     "react-select-country-list": "^2.2.3",
@@ -64,6 +65,10 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
+  },
+  "resolutions": {
+    "svgo": "^3.0.2",
+    "nth-check": "^2.0.1"
   },
   "eslintConfig": {
     "extends": [

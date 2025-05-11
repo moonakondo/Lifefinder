@@ -279,7 +279,7 @@ function AboutUs() {
         REVIEWED CLINICS ON LIFEFINDER
       </p>
       <p className="text-clr1 text-[7vw] md:text-[5vw] font-bold mt-[5vh] 2lg:mt-[5vh] md:mt-[2vh] mb-[4vh]">
-        MEDICAL TOURISM
+        MEDICAL TOURISMmm
       </p>
       <div className="flex md:flex-row flex-col justify-around gap-[14vw] container">
         <div className="border border-blue-500 p-[4vh] 2lg:p-[4vh] md:p-[2vh] w-[100%] bg-white shadow-xl md:w-[35vw] flex justify-center flex-col items-center gap-[1.5vh] md:gap-[3vh]">
