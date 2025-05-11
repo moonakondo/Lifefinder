@@ -1,0 +1,173 @@
+[
+  {
+    "title": "Cosmetic and Aesthetic Procedures",
+    "searchString": "Cosmetic and Aesthetic Procedures",
+    "description": "Explore a range of procedures designed to enhance your appearance. From surgical interventions to non-invasive treatments",
+    "image": "/Categories/Cosmetic.jpg",
+    "items": [
+      "Plastic Surgery",
+      "Rhinoplasty",
+      "Breast Augmentation",
+      "Liposuction",
+      "Facelifts",
+      "Botox",
+      "Dermal Fillers"
+    ]
+  },
+  {
+    "title": "Dental Care",
+    "searchString": "Dental Care",
+    "description": "Comprehensive dental services including preventive, cosmetic, and surgical treatments to maintain oral health and achieve a confident smile.",
+    "image": "/Categories/Dental.jpg",
+    "items": [
+      "Cleanings",
+      "Fillings",
+      "Veneers",
+      "Teeth Whitening",
+      "Implants",
+      "Extractions",
+      "Braces",
+      "Invisalign"
+    ]
+  },
+  {
+    "title": "Fertility Treatments",
+    "searchString": "Fertility Treatments Hospitals",
+    "description": "Assistance with fertility and reproductive health, including advanced techniques for conception and surrogacy options.",
+    "image": "/Categories/Fertility.jpg",
+    "items": [
+      "Artificial Insemination",
+      "Gestational Surrogacy",
+      "Traditional Surrogacy",
+      "Intrauterine Insemination (IUI)"
+    ]
+  },
+  {
+    "title": "Cardiovascular Treatments",
+    "searchString": "Cardiovascular Treatments",
+    "description": "Assistance with fertility and reproductive health, including advanced techniques for conception and surrogacy options.",
+    "image": "/Categories/Cardio.jpg",
+    "items": ["Cardiology"]
+  },
+  {
+    "title": "Oncology",
+    "searchString": "Oncology Hospitals",
+    "description": "Comprehensive cancer care including specialized treatments for different types of cancer and supportive therapies.",
+    "image": "/Categories/Oncology.jpg",
+    "items": [
+      "Chemotherapy",
+      "Radiation Therapy",
+      "Immunotherapy",
+      "Surgical Oncology",
+      "Testicular Cancer Treatment"
+    ]
+  },
+  {
+    "title": "Orthopedic Treatments",
+    "searchString": "Orthopedic Treatments",
+    "description": "Specialized care for musculoskeletal issues, including surgical and non-surgical options for joint and bone health.",
+    "image": "/Categories/Orthopedic.jpg",
+    "items": [
+      "Knee Replacement",
+      "Hip Replacement",
+      "Spinal Surgery",
+      "Arthroscopy"
+    ]
+  },
+  {
+    "title": "Ophthalmology",
+    "searchString": "Ophthalmology Hospitals",
+    "description": "Advanced treatments for eye conditions and surgeries to improve vision and eye health.",
+    "image": "/Categories/Ophthalmology.jpg",
+    "items": ["LASIK", "Cataract Surgery", "Glaucoma Treatment"]
+  },
+  {
+    "title": "Weight Loss Treatments",
+    "searchString": "Weight Loss Treatments",
+    "description": "Effective options for weight management and reduction, including surgical and non-surgical methods.",
+    "image": "/Categories/WeightLoss.jpg",
+    "items": ["Gastric Bypass", "Gastric Sleeve", "Lap Band Surgery"]
+  },
+  {
+    "title": "Neurology and Neurosurgery",
+    "searchString": "Neurology and Neurosurgery Hospitals",
+    "description": "Care for neurological conditions and surgeries, addressing disorders of the brain and nervous system.",
+    "image": "/Categories/Neurology.jpg",
+    "items": [
+      "Epilepsy Treatment",
+      "Parkinson's Treatment",
+      "Brain Tumor Surgery",
+      "Spinal Cord Surgery"
+    ]
+  },
+  {
+    "title": "Ear, Nose, and Throat (ENT)",
+    "searchString": "Ear, Nose, and Throat (ENT) Hospitals",
+    "description": "Treatment for conditions affecting the ear, nose, and throat, including surgeries and specialized care.",
+    "image": "/Categories/ENT.jpg",
+    "items": ["Sinus Surgery", "Tonsillectomy", "Cochlear Implants"]
+  },
+  {
+    "title": "Dermatology",
+    "searchString": "Dermatology Hospitals",
+    "description": "Comprehensive care for skin conditions and treatments to maintain healthy skin.",
+    "image": "/Categories/Dermatology.jpg",
+    "items": ["Acne Treatment", "Psoriasis Treatment", "Skin Cancer Treatment"]
+  },
+  {
+    "title": "Urology",
+    "searchString": "Urology Hospitals",
+    "description": "Specialized treatment for urinary tract and male reproductive health issues.",
+    "image": "/Categories/Urology.jpg",
+    "items": [
+      "Kidney Stone Removal",
+      "Prostate Surgery",
+      "Male Infertility Treatment"
+    ]
+  },
+  {
+    "title": "Reproductive Health",
+    "searchString": "Reproductive Health Hospitals",
+    "description": "Specialized care in reproductive health, including gynecological and andrological treatments.",
+    "image": "/Categories/Reproductive.jpg",
+    "items": [
+      "Hysterectomy",
+      "Fibroid Removal",
+      "Erectile Dysfunction Treatment",
+      "Vasectomy"
+    ]
+  },
+  {
+    "title": "Geriatric Care",
+    "searchString": "Geriatric Care Hospitals",
+    "description": "Comprehensive care for the elderly, focusing on managing age-related conditions and maintaining quality of life.",
+    "image": "/Categories/Geriatric.jpg",
+    "items": ["Hip Fracture Treatment", "Arthritis Management"]
+  },
+  {
+    "title": "Pediatric Care",
+    "searchString": "Pediatric Care Hospitals",
+    "description": "Specialized care for children, from routine check-ups to advanced treatments for various pediatric conditions.",
+    "image": "/Categories/Pediatric.jpg",
+    "items": ["Pediatric Surgery", "Neonatal Care"]
+  },
+  {
+    "title": "Chronic Disease Management",
+    "searchString": "Chronic Disease Management Hospitals",
+    "description": "Ongoing management and treatment for chronic diseases, including diabetes and respiratory conditions.",
+    "image": "/Categories/Chronic.jpg",
+    "items": ["Insulin Pump Therapy", "Asthma Treatment", "COPD Management"]
+  },
+  {
+    "title": "Mental Health",
+    "searchString": "Mental Health  Hospital",
+    "description": "Mental health care including psychiatric treatments and psychological support to improve emotional and mental well-being.",
+    "image": "/Categories/Mental.jpg",
+    "items": [
+      "Depression Treatment",
+      "Anxiety Treatment",
+      "Counseling",
+      "Cognitive Behavioral Therapy (CBT)"
+    ]
+  }
+]

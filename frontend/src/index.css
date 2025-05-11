@@ -1,0 +1,308 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* --clr1: #030121;
+  --clr2: #000949; */
+  --clr1: #000949;
+  --clr2: #030121;
+  /* --clr3: #07a7e3; */
+  --clr3: #000949;
+}
+
+html,
+body {
+  overflow-x: hidden !important;
+  width: 100% !important;
+}
+
+body {
+  top: 0 !important;
+}
+
+/* ppc homepage */
+.ppc {
+  /* clip-path: polygon(
+    100% 0%,
+    0% 0%,
+    0% 89%,
+    2% 89.12%,
+    4% 89.48%,
+    6% 90.05%,
+    8% 90.81%,
+    10% 91.73%,
+    12% 92.76%,
+    14% 93.84%,
+    16% 94.94%,
+    18% 95.99%,
+    20% 96.94%,
+    22% 97.75%,
+    24% 98.38%,
+    26% 98.8%,
+    28% 98.99%,
+    30% 98.94%,
+    32% 98.65%,
+    34% 98.14%,
+    36% 97.42%,
+    38% 96.55%,
+    40% 95.55%,
+    42% 94.47%,
+    44% 93.37%,
+    46% 92.31%,
+    48% 91.32%,
+    50% 90.46%,
+    52% 89.78%,
+    54% 89.3%,
+    56% 89.04%,
+    58% 89.02%,
+    60% 89.24%,
+    62% 89.7%,
+    64% 90.36%,
+    66% 91.19%,
+    68% 92.16%,
+    70% 93.22%,
+    72% 94.31%,
+    74% 95.39%,
+    76% 96.41%,
+    78% 97.31%,
+    80% 98.05%,
+    82% 98.59%,
+    84% 98.91%,
+    86% 99%,
+    88% 98.84%,
+    90% 98.46%,
+    92% 97.85%,
+    94% 97.06%,
+    96% 96.13%,
+    98% 95.09%,
+    100% 94%
+  ); */
+  position: relative;
+  background: none !important;
+  background: #000;
+}
+
+.ppc .background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  filter: blur(1px) brightness(80%);
+  z-index: 20;
+}
+/* uncomment it */
+/* mask-image: linear-gradient(to top, rgba(255,255,255,1) 0%, rgba(255,255,255,.9) 80%, rgba(255,255,255,.8) 87%, rgba(255,255,255,0) 100%);
+-webkit-mask-image: linear-gradient(to top, rgba(255,255,255,1) 0%, rgba(255,255,255,.9) 80%, rgba(255,255,255,.8) 87%, rgba(255,255,255,0) 100%); */
+
+/* .ppc::before {
+  content: '';
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  backdrop-filter: blur(2px);
+  background-color: rgba(0,0,0,0.2);
+  background-color: linear-gradient(to top, rgba(255,255,255,1) 0%, rgba(255,255,255,0.9) 95%, rgba(0,0,0,2) 100%);
+  z-index: 30;
+} */
+
+/* .ppc h1 {
+  background-color: rgba(255,255,255,0.2);
+  padding: .5rem 1rem;
+  border-radius: .3rem;
+  font-weight: 800;
+} */
+
+/* fix carousel */
+/* .carousel .slide {
+  min-width: fit-content!important;
+}
+
+.carousel .control-arrow {
+  background: rgba(0, 0, 0, .9)!important;
+  height: 3rem;
+  width: 3rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.carousel.carousel-slider .control-arrow {
+  margin: auto!important;
+}
+
+.carousel .slider-wrapper .slider .slide {
+  width: 37vw!important;
+  max-width: 30rem!important;
+} */
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  display: none !important;
+}
+
+.swiper .swiper-wrapper {
+  padding: 1.5rem 0 !important;
+}
+
+.scroll-category::-webkit-scrollbar {
+  width: 5px;
+}
+
+.scroll-category::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
+
+.scroll-category::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+
+  @media (max-width: 675px) {
+    .ppc {
+      clip-path: polygon(
+        100% 0%,
+        0% 0%,
+        0% 91%,
+        2% 91.07%,
+        4% 91.29%,
+        6% 91.63%,
+        8% 92.09%,
+        10% 92.64%,
+        12% 93.25%,
+        14% 93.91%,
+        16% 94.56%,
+        18% 95.19%,
+        20% 95.76%,
+        22% 96.25%,
+        24% 96.63%,
+        26% 96.88%,
+        28% 96.99%,
+        30% 96.96%,
+        32% 96.79%,
+        34% 96.48%,
+        36% 96.05%,
+        38% 95.53%,
+        40% 94.93%,
+        42% 94.28%,
+        44% 93.62%,
+        46% 92.98%,
+        48% 92.39%,
+        50% 91.88%,
+        52% 91.47%,
+        54% 91.18%,
+        56% 91.02%,
+        58% 91.01%,
+        60% 91.15%,
+        62% 91.42%,
+        64% 91.81%,
+        66% 92.31%,
+        68% 92.9%,
+        70% 93.53%,
+        72% 94.19%,
+        74% 94.84%,
+        76% 95.45%,
+        78% 95.98%,
+        80% 96.43%,
+        82% 96.75%,
+        84% 96.95%,
+        86% 97%,
+        88% 96.91%,
+        90% 96.67%,
+        92% 96.31%,
+        94% 95.84%,
+        96% 95.28%,
+        98% 94.65%,
+        100% 94%
+      );
+    }
+  }
+
+  @media (max-width: 450px) {
+    .ppc {
+      clip-path: polygon(
+        100% 0%,
+        0% 0%,
+        0% 92.6%,
+        2% 92.63%,
+        4% 92.73%,
+        6% 92.89%,
+        8% 93.11%,
+        10% 93.36%,
+        12% 93.65%,
+        14% 93.96%,
+        16% 94.26%,
+        18% 94.56%,
+        20% 94.82%,
+        22% 95.05%,
+        24% 95.23%,
+        26% 95.34%,
+        28% 95.4%,
+        30% 95.38%,
+        32% 95.3%,
+        34% 95.16%,
+        36% 94.96%,
+        38% 94.71%,
+        40% 94.43%,
+        42% 94.13%,
+        44% 93.82%,
+        46% 93.53%,
+        48% 93.25%,
+        50% 93.01%,
+        52% 92.82%,
+        54% 92.68%,
+        56% 92.61%,
+        58% 92.61%,
+        60% 92.67%,
+        62% 92.79%,
+        64% 92.98%,
+        66% 93.21%,
+        68% 93.48%,
+        70% 93.78%,
+        72% 94.09%,
+        74% 94.39%,
+        76% 94.67%,
+        78% 94.93%,
+        80% 95.13%,
+        82% 95.28%,
+        84% 95.38%,
+        86% 95.4%,
+        88% 95.36%,
+        90% 95.25%,
+        92% 95.08%,
+        94% 94.86%,
+        96% 94.6%,
+        98% 94.31%,
+        100% 94%
+      );
+    }
+  }
+}
+/* For mobile screens, apply these styles */
+@media (max-width: 768px) {
+  .mobile-submenu-popup {
+    left: 0px !important; /* Reset default left positioning */
+    right: 0px !important; /* Align submenu to the right side */
+    transform: none !important; /* Reset any transformations */
+    min-width: 100% !important; /* Ensure submenu takes full width */
+    width: 100% !important;
+    /* display: flex;
+    justify-content: center;
+    align-content: center; */
+  }
+  .ant-dropdown-menu {
+    width: 80% !important;
+  }
+  .ant-dropdown-menu-submenu {
+    width: 100% !important;
+  }
+  .ant-dropdown-menu-submenu-popup {
+    display: flex;
+    justify-content: center;
+  }
+}

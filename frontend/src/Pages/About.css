@@ -1,0 +1,46 @@
+.about-us-container {
+  background-color: #f4f4f9;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px;
+}
+
+.about-us-header h1 {
+  color: #003366; /* Dark blue */
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.about-us-header p {
+  color: #666;
+  font-size: 18px;
+}
+
+.about-us-content p {
+  color: #333;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.highlight {
+  background-color: #003366; /* Dark blue */
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 10px 0;
+}
+
+.learn-more-btn {
+  background-color: #003366; /* Dark blue */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.learn-more-btn:hover {
+  background-color: #0055a5; /* Lighter blue for hover effect */
+}

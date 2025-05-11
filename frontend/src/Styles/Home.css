@@ -1,0 +1,29 @@
+/* ***** Section 1 Styling *****  */
+
+#AboutButton::after {
+  content: "→";
+  position: absolute;
+  right: 2vw;
+  top: 0.4vh;
+  font-size: 1.8vw;
+  font-weight: bold;
+  opacity: 0;
+  transition: opacity 0.3s ease-out;
+  color: var(--clr1);
+}
+
+#AboutButton:hover::after {
+  opacity: 100;
+  right: 1vw; /* Adjust as needed for the hover state */
+  top: 1vh; /* Adjust as needed for the hover state */
+}
+.custom-form .ant-row .ant-form-item-row {
+  width: 100% !important;
+}
+
+.about-us-container {
+  background-color: #f4f4f9;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px;
+}

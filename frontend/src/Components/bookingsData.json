@@ -1,0 +1,143 @@
+[
+    {
+      "id": 1,
+      "patientName": "Ismail Khan",
+      "medicalIssue": "Mental Issues",
+      "date": "07-Dec-2024",
+      "description": "I am facing several mental issues, like I am feeling depressed as I am seeing the darkest part of the world, and everywhere I look, all I see is injustice and cruelty."
+    },
+    {
+      "id": 2,
+      "patientName": "James Lawrence",
+      "medicalIssue": "Mental Issues",
+      "date": "07-May-2024",
+      "description": "I am facing several mental issues, like I am feeling depressed as I am seeing the darkest part of the world, and everywhere I look, all I see is injustice and cruelty."
+    },
+    {
+      "id": 3,
+      "patientName": "Sarah Johnson",
+      "medicalIssue": "Cardiology",
+      "date": "12-Feb-2024",
+      "description": "Experiencing chest pain and shortness of breath. Feeling very anxious about the symptoms."
+    },
+    {
+      "id": 4,
+      "patientName": "David Smith",
+      "medicalIssue": "Neurology",
+      "date": "22-Mar-2024",
+      "description": "Frequent headaches and dizziness. Struggling to focus and maintain balance."
+    },
+    {
+      "id": 5,
+      "patientName": "Linda Brown",
+      "medicalIssue": "Dermatology",
+      "date": "05-Apr-2024",
+      "description": "Severe skin rashes and itching. The condition is worsening despite using over-the-counter creams."
+    },
+    {
+      "id": 6,
+      "patientName": "Michael Wilson",
+      "medicalIssue": "Orthopedics",
+      "date": "18-Jun-2024",
+      "description": "Knee pain and swelling after a recent fall. Difficulty walking and climbing stairs."
+    },
+    {
+      "id": 7,
+      "patientName": "Jessica Martinez",
+      "medicalIssue": "Gynecology",
+      "date": "30-Jul-2024",
+      "description": "Irregular menstrual cycles and severe cramps. Seeking advice on possible underlying issues."
+    },
+    {
+      "id": 8,
+      "patientName": "Christopher Lee",
+      "medicalIssue": "Gastroenterology",
+      "date": "10-Aug-2024",
+      "description": "Persistent stomach pain and digestive issues. Concerned about a potential ulcer."
+    },
+    {
+      "id": 9,
+      "patientName": "Karen Walker",
+      "medicalIssue": "Pediatrics",
+      "date": "15-Sep-2024",
+      "description": "Child experiencing frequent fevers and coughing. Worried about possible infections."
+    },
+    {
+      "id": 10,
+      "patientName": "Robert Allen",
+      "medicalIssue": "Urology",
+      "date": "25-Oct-2024",
+      "description": "Frequent urination and discomfort. Suspecting a possible urinary tract infection."
+    },
+    {
+      "id": 11,
+      "patientName": "Patricia Scott",
+      "medicalIssue": "Ophthalmology",
+      "date": "05-Nov-2024",
+      "description": "Blurred vision and eye strain. Difficulty reading and working on the computer."
+    },
+    {
+      "id": 12,
+      "patientName": "Steven Lewis",
+      "medicalIssue": "ENT",
+      "date": "17-Dec-2024",
+      "description": "Constant ringing in the ears and hearing loss. Seeking treatment for tinnitus."
+    },
+    {
+      "id": 13,
+      "patientName": "Emily Harris",
+      "medicalIssue": "Psychiatry",
+      "date": "02-Jan-2025",
+      "description": "Struggling with anxiety and panic attacks. Looking for therapy options."
+    },
+    {
+      "id": 14,
+      "patientName": "Mark Robinson",
+      "medicalIssue": "Endocrinology",
+      "date": "14-Feb-2025",
+      "description": "Unexplained weight gain and fatigue. Concerned about thyroid issues."
+    },
+    {
+      "id": 15,
+      "patientName": "Laura King",
+      "medicalIssue": "Oncology",
+      "date": "28-Mar-2025",
+      "description": "Lump detected in breast during self-examination. Seeking further evaluation and tests."
+    },
+    {
+      "id": 16,
+      "patientName": "Paul Carter",
+      "medicalIssue": "Nephrology",
+      "date": "10-Apr-2025",
+      "description": "Swollen ankles and high blood pressure. Worried about kidney function."
+    },
+    {
+      "id": 17,
+      "patientName": "Nancy Adams",
+      "medicalIssue": "Rheumatology",
+      "date": "22-May-2025",
+      "description": "Joint pain and stiffness, especially in the morning. Suspecting arthritis."
+    },
+    {
+      "id": 18,
+      "patientName": "Andrew Baker",
+      "medicalIssue": "Pulmonology",
+      "date": "03-Jun-2025",
+      "description": "Shortness of breath and persistent cough. Concerned about lung health."
+    },
+    {
+      "id": 19,
+      "patientName": "Helen Gonzalez",
+      "medicalIssue": "Hematology",
+      "date": "15-Jul-2025",
+      "description": "Frequent bruising and fatigue. Worried about blood disorders."
+    },
+    {
+      "id": 20,
+      "patientName": "Matthew Nelson",
+      "medicalIssue": "Neurology",
+      "date": "27-Aug-2025",
+      "description": "Tingling and numbness in hands and feet. Suspecting nerve damage."
+    }
+  ]
+  

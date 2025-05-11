@@ -1,0 +1,131 @@
+/* General styles for the navbar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #333;
+    color: white;
+  }
+  
+  .inline {
+    display: inline-block;
+  }
+  
+  .nav {
+    display: flex;
+    list-style: none;
+  }
+  
+  .nav.open {
+    display: flex;
+  }
+  
+  .nav li {
+    margin: 0 1rem;
+  }
+  
+  .nav a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .container0 {
+    display: none;
+  }
+  
+  .dropdown {
+    position: relative;
+  }
+  
+  .dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #444;
+    padding: 1rem;
+    list-style: none;
+    border-radius: 5px;
+    top: 2rem;
+    left: 0;
+    z-index: 1000;
+  }
+  
+  .dropdown:hover .dropdown-menu {
+    display: block;
+  }
+  
+  .dropdown-menu li {
+    padding: 0.5rem 0;
+  }
+  
+  .flag {
+    margin-right: 0.5rem;
+  }
+  
+  #google_translate_element {
+    display: none;
+  }
+  
+  /* Mobile Styles */
+  @media (max-width: 768px) {
+    .container0 {
+      display: block;
+    }
+  
+    .nav {
+      display: none;
+      flex-direction: column;
+      width: 100%;
+    }
+  
+    .nav.open {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .nav li {
+      margin: 0.5rem 0;
+    }
+  
+    .dropdown-menu {
+      position: static;
+    }
+  
+    .dropdown-menu li {
+      display: flex;
+      align-items: center;
+    }
+  
+    .dropdown-toggle {
+      cursor: pointer;
+    }
+  }
+  
+  /* Styles for the menu icon */
+  .inav {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 2rem;
+    height: 1.5rem;
+  }
+  
+  .c1, .c2, .c3 {
+    height: 0.25rem;
+    background-color: white;
+    transition: all 0.3s;
+  }
+  
+  .close-c1 {
+    transform: rotate(-45deg) translate(-5px, 6px);
+  }
+  
+  .close-c2 {
+    opacity: 0;
+  }
+  
+  .close-c3 {
+    transform: rotate(45deg) translate(-5px, -6px);
+  }
+  

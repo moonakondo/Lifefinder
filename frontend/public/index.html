@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://api.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>LIFEFINDER</title>
+    <!-- Rich Snippets for SEO -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "url": "https://life-finder.com/",
+        "name": "Lifefinder",
+        "description": "Welcome to Life Finder, a trusted source for medical services and clinic information.",
+        "dateModified": "2023-09-06",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://life-finder.com/"
+        }
+      }
+      </script>
+  
+      <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "AboutPage",
+        "url": "https://life-finder.com/about",
+        "name": "About Lifefinder",
+        "description": "Learn more about Life Finder and our mission to provide reliable healthcare services.",
+        "dateModified": "2023-09-06",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://life-finder.com/about"
+        }
+      }
+      </script>
+  
+      <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "MedicalProcedure",
+        "url": "https://life-finder.com/oncology",
+        "name": "Oncology Services - Lifefinder",
+        "description": "Comprehensive oncology services provided by leading specialists.",
+        "dateModified": "2023-09-06",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://life-finder.com/oncology"
+        }
+      }
+      </script>
+  
+      <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "MedicalProcedure",
+        "url": "https://life-finder.com/plastic-surgery",
+        "name": "Plastic Surgery Services - Lifefinder",
+        "description": "Top-quality plastic surgery services provided by certified professionals.",
+        "dateModified": "2023-09-06",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://life-finder.com/plastic-surgery"
+        }
+      }
+      </script>
+  
+      <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "MedicalOrganization",
+        "url": "https://life-finder.com/clinics",
+        "name": "Clinic Finder",
+        "description": "Find the best clinics for your medical needs at Life Finder.",
+        "dateModified": "2023-09-06",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://life-finder.com/clinics"
+        }
+      }
+      </script>
+  
+      <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "url": "https://life-finder.com/pricing",
+        "name": "Pricing Information",
+        "description": "Get pricing details for Life Finder services.",
+        "dateModified": "2023-09-06",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://life-finder.com/pricing"
+        }
+      }
+      </script>
+    <style>
+      html {
+        max-width: 100vw !important;
+        overflow-x: hidden !important;
+      }
+      .VIpgJd-ZVi9od-l4eHX-hSRGPd {
+        display: none !important;
+      }
+
+      /* HIDE TRANSLATE BAR */
+      .VIpgJd-ZVi9od-ORHb-OEVmcd {
+        display: none !important;
+      }
+      .VIpgJd-ZVi9od-aZ2wEe-Jt5cK {
+        display: none !important;
+      }
+      .skiptranslate {
+        display: none !important;
+      }
+      .VIpgJd-ZVi9od-aZ2wEe-wOHMyf,
+      .VIpgJd-ZVi9od-aZ2wEe-OiiCO,
+      .VIpgJd-ZVi9od-aZ2wEe-wOHMyf-ti6hGc {
+        display: none !important;
+      }
+
+      #google_translate_element {
+        position: absolute;
+        top: 0vh;
+        right: 7vw;
+        background-color: transparent;
+        opacity: 0;
+      }
+
+      .goog-te-gadget {
+        font-family: "Arial", sans-serif;
+        color: transparent;
+      }
+
+      .goog-te-gadget .goog-te-combo {
+        display: none !important;
+      }
+
+      .goog-te-banner-frame.skiptranslate,
+      .goog-logo-link,
+      .goog-te-gadget-icon,
+      .goog-te-gadget-simple {
+        display: none !important;
+      }
+
+      .goog-te-combo {
+        display: none;
+      }
+
+      .language-select {
+        display: none;
+        position: absolute;
+        top: 7vh;
+        right: 8vw;
+        background-color: white;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        padding: 5px;
+        z-index: 1000;
+      }
+
+      .language-option {
+        display: flex;
+        align-items: center;
+        padding: 8px 12px;
+        cursor: pointer;
+      }
+
+      .language-option img {
+        margin-right: 10px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="google_translate_element"></div>
+    <!-- here is the icon -->
+    <!-- <div class="translate-icon" onclick="toggleTranslateDropdown(event)"></div> -->
+    <!-- <div class="translate-icon" id="translate-icon"></div> -->
+    <div class="language-select" id="custom_language_select">
+      <div class="language-option" onclick="translateLanguage('en')">
+        <img src="Flags/english.png" alt="English" width="20" loading="lazy" />
+        <span>English</span>
+      </div>
+      <div class="language-option" onclick="translateLanguage('fr')">
+        <img src="Flags/french.png" alt="French" width="20" loading="lazy" />
+        <span>French</span>
+      </div>
+      <div class="language-option" onclick="translateLanguage('de')">
+        <img src="Flags/german.png" alt="German" width="20" loading="lazy" />
+        <span>German</span>
+      </div>
+      <div class="language-option" onclick="translateLanguage('es')">
+        <img src="Flags/spanish.png" alt="Spanish" width="20" loading="lazy" />
+        <span>Spanish</span>
+      </div>
+      <div class="language-option" onclick="translateLanguage('pt')">
+        <img
+          src="Flags/portuguese.png"
+          alt="Portuguese"
+          width="20"
+          loading="lazy"
+        />
+        <span>Portuguese</span>
+      </div>
+      <div class="language-option" onclick="translateLanguage('zh-CN')">
+        <img src="Flags/china.png" alt="Chinese" width="20" loading="lazy" />
+        <span>Chinese</span>
+      </div>
+      <div class="language-option" onclick="translateLanguage('ar')">
+        <img src="Flags/saudi.png" alt="Arabic" width="20" loading="lazy" />
+        <span>Arabic</span>
+      </div>
+    </div>
+
+    <script type="text/javascript" defer>
+      function googleTranslateElementInit() {
+        new google.translate.TranslateElement(
+          {
+            pageLanguage: "en",
+            includedLanguages: "en,fr,de,es,pt,zh-CN,ar",
+          },
+          "google_translate_element"
+        );
+      }
+      // from here
+      function toggleTranslateDropdown(event) {
+        event.stopPropagation();
+        const customSelect = document.getElementById("custom_language_select");
+        if (
+          customSelect.style.display === "none" ||
+          customSelect.style.display === ""
+        ) {
+          customSelect.style.display = "block";
+        } else {
+          customSelect.style.display = "none";
+        }
+      }
+      // to here
+
+      function translateLanguage(languageCode) {
+        const combo = document.querySelector(".goog-te-combo");
+        const customSelect = document.getElementById("custom_language_select");
+        if (combo) {
+          combo.value = languageCode;
+          combo.dispatchEvent(new Event("change"));
+          customSelect.style.display = "none";
+        }
+        // if(languageCode == 'en') {
+        //   googleTranslateElementInit();
+        // }
+      }
+
+      document.addEventListener("click", function () {
+        const customSelect = document.getElementById("custom_language_select");
+        customSelect.style.display = "none";
+      });
+
+      document
+        .getElementById("custom_language_select")
+        .addEventListener("click", function (event) {
+          event.stopPropagation();
+        });
+    </script>
+
+    <script
+      type="text/javascript"
+      src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"
+      defer
+    ></script>
+
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+  </body>
+</html>

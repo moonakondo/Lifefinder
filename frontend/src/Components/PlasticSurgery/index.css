@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'Mylon';
+    src: url('../../../public/assests/font/mylon-bolditalic.woff2') format('woff2'),
+         url('../../../public/assests/font/mylon-bolditalic.woff') format('woff'),
+         url('../../../public/assests/font/mylon-bolditalic.otf') format('opentype');
+  }
+  
+  .plastic-heading {
+    font-family: 'Mylon', sans-serif !important;
+  }

@@ -1,0 +1,19 @@
+{
+  "token": {
+    "colorPrimary": "#030121",
+    "colorSuccess": "#030121",
+    "fontSizeHeading2": 40,
+    "fontSizeHeading1": 50,
+    "borderRadius": 5,
+    "wireframe": false,
+    "colorBgLayout": "#c00a27",
+    "colorInfo": "#666666",
+    "fontFamily": "'Poopins', sans-serif"
+  },
+  "components": {
+    "Table": {
+      "colorLink": "#66666",
+      "colorLinkActive": "#66666"
+    }
+  }
+}
