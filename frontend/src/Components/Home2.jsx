@@ -8,6 +8,7 @@ import ContactForm from "./Form";
 import TeamSection from "./Team2";
 import Welcome from "./Welcome";
 import Register from "./Register";
+import SearchOptions from "../Sections/SearchOption";
 
 
 
@@ -574,7 +575,9 @@ const Home2 = () => {
             </div>
           </div>
         </section>
-
+        <div>
+        <SearchOptions />
+        </div>
         <section id="our-vision">
           <About />
           <About2 />
